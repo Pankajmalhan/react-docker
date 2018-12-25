@@ -27,7 +27,7 @@ class App extends Component {
       <React.StrictMode>
       <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Welcome to docker 100 100 500</h1>
+          <h1>Welcome to docker {Math.random()}</h1>
         </header>
       </React.StrictMode>
       </div>
